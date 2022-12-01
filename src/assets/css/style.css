@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.container-women {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color: #fde2ff;
+}
+
+.container-men {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color: #d6e6ff;
+}
+
+.container-unvailable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color: #d8d7d7;
+}
+
+hr {
+    width: 100%;
+    margin-left: 0;
+}
+
+img {
+    height: 300px;
+    width: 200px;
+}
+
+.card {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color: #ffff;
+    padding: 16px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.flex-wrap {
+    display: flex;
+    padding: 16px;
+    justify-content: space-between;
+}
+
+
+.title-women {
+    color: #720060;
+    margin-bottom: 20px;
+}
+
+.title-men {
+    color: #002772;
+    margin-bottom: 20px;
+}
+
+.rating {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.rating p {
+    margin-right: 5px;
+}
+
+.rating-category {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.lv-women {
+    margin-left: 1px;
+    height: 15px;
+    width: 15px;
+    background-color: #720060;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.lv-empty-women {
+    display: inline-block;
+    margin-left: 1px;
+    height: 15px;
+    width: 15px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 1px solid #720060;
+}
+
+.lv-men {
+    margin-left: 1px;
+    height: 15px;
+    width: 15px;
+    background-color: #002772;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.lv-empty-men {
+    display: inline-block;
+    margin-left: 1px;
+    height: 15px;
+    width: 15px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 1px solid #002772;
+}
+
+
+.category {
+    color: #3f3f3f;
+    font-size: 14px;
+}
+
+.description {
+    color: #1e1e1e;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.price-women {
+    color: #720060;
+    margin: 10px;
+}
+
+.price-men {
+    color: #002772;
+    margin: 10px;
+}
+
+.flex-wrap .left {
+    width: 50%;
+    text-align: center;
+}
+
+.flex-wrap .right {
+    width: 50%;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-buy-women {
+    padding: 10px 32px;
+    border: none;
+    background-color: #720060;
+    color: white;
+    font-weight: 700;
+    width: 50%;
+    margin-right: 10px;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.unvailable-img {
+    width: 100%;
+    height: 100%;
+}
+
+.description-unvailable {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    font-weight: 300px;
+}
+
+.unvailable-btn {
+    margin-top: 10px;
+    color: #000;
+    border-radius: 4px;
+    width: 100%;
+    height: 42px;
+    border: 3px solid #000;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-buy-men {
+    padding: 10px 32px;
+    border: none;
+    background-color: #002772;
+    color: white;
+    font-weight: 700;
+    width: 50%;
+    margin-right: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-buy-men:hover {
+    color: #002772;
+    border: 1px solid #002772;
+    background-color: #ffff;
+    transition: all;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+.btn-buy-women:hover {
+    color: #720060;
+    border: 1px solid #720060;
+    background-color: #ffff;
+    transition: all;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+.btn-next-women:hover {
+    color: #ffff;
+    border: 1px solid #720060;
+    background-color: #720060;
+    transition: all;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+.btn-next-men:hover {
+    color: #ffff;
+    border: 1px solid #002772;
+    background-color: #002772;
+    transition: all;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+.btn-next-women {
+    padding: 10px 32px;
+    border: 1px solid #720060;
+    background-color: #ffff;
+    color: #720060;
+    font-weight: 700;
+    width: 50%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-next-men {
+    padding: 10px 32px;
+    border: 1px solid #002772;
+    background-color: #ffff;
+    color: #002772;
+    font-weight: 700;
+    width: 50%;
+    border-radius: 4px;
+    cursor: pointer;
+}
