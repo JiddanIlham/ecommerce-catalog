@@ -10,7 +10,7 @@ export default {
   methods: {
     async fetchData() {
       const response = await fetch(
-        "https://fakestoreapi.com/products/" + this.index
+        `https://fakestoreapi.com/products/${this.index}`
       );
       const data = await response.json();
       this.loading = false;
